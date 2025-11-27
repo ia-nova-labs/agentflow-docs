@@ -1,6 +1,6 @@
 # AgentFlow Documentation
 
-Official documentation for the [AgentFlow](https://github.com/agentflow-ai-labs/agentflow) framework.
+Official documentation for the [AgentFlow](https://github.com/ia-nova-labs/agentflow) framework.
 
 ## 📚 Documentation
 
@@ -11,8 +11,8 @@ Official documentation for the [AgentFlow](https://github.com/agentflow-ai-labs/
 ## 🚀 Quick Links
 
 - **Installation**: `pip install agentflow`
-- **GitHub**: [github.com/agentflow-ai-labs/agentflow](https://github.com/agentflow-ai-labs/agentflow)
-- **Examples**: [github.com/agentflow-ai-labs/agentflow-examples](https://github.com/agentflow-ai-labs/agentflow-examples)
+- **GitHub**: [github.com/ia-nova-labs/agentflow](https://github.com/ia-nova-labs/agentflow)
+- **Examples**: [github.com/ia-nova-labs/agentflow-examples](https://github.com/ia-nova-labs/agentflow-examples)
 
 ## 📖 Guides
 
@@ -29,9 +29,9 @@ The documentation covers:
 
 ## 🔗 Related Repos
 
-- [AgentFlow](https://github.com/agentflow-ai-labs/agentflow) - Main framework
-- [Examples](https://github.com/agentflow-ai-labs/agentflow-examples) - Code examples
-- [Documentation](https://github.com/agentflow-ai-labs/agentflow-docs) - This repo
+- [AgentFlow](https://github.com/ia-nova-labs/agentflow) - Main framework
+- [Examples](https://github.com/ia-nova-labs/agentflow-examples) - Code examples
+- [Documentation](https://github.com/ia-nova-labs/agentflow-docs) - This repo
 
 ## 📄 License
 
