@@ -17,16 +17,19 @@ Before you start, make sure you have:
      ```bash
      ollama serve
      ```
-   - Pull a model (we'll use llama3):
+   - Pull a model (we'll use qwen2.5-coder:1.5b):
      ```bash
-     ollama pull llama3
+     ollama pull qwen2.5-coder:1.5b
      ```
 
 ## Installation
 
 1. Clone or download AgentFlow:
    ```bash
-```bash
+   git clone https://github.com/ia-nova-labs/agentflow
+   cd agentflow
+   pip install -e .
+   ```
 
 ## Understanding the Basics
 
@@ -35,14 +38,14 @@ Before you start, make sure you have:
 ```python
 from agentflow import Agent
 
-# Use default settings (llama3 model, localhost:11434)
+# Use default settings (qwen2.5-coder:1.5b model, localhost:11434)
 agent = Agent()
 
 # Or customize the model
 agent = Agent(model="mistral")
 
 # Or use a different Ollama server
-agent = Agent(model="llama3", base_url="http://192.168.1.100:11434")
+agent = Agent(model="qwen2.5-coder:1.5b", base_url="http://192.168.1.100:11434")
 ```
 
 ### Running Prompts
@@ -164,7 +167,7 @@ except LLMResponseError as e:
 **Problem**: The model returned no content.
 
 **Solutions**:
-1. Make sure the model is properly installed: `ollama pull llama3`
+1. Make sure the model is properly installed: `ollama pull qwen2.5-coder:1.5b`
 2. Try a different model
 3. Check Ollama logs for errors
 
@@ -230,7 +233,7 @@ This is the default. You can specify the model name directly:
 
 ```python
 # Uses Ollama by default
-agent = Agent(model="llama3")
+agent = Agent(model="qwen2.5-coder:1.5b")
 ```
 
 ### Cloud Models (OpenAI, Mistral)
@@ -280,7 +283,7 @@ Now that you have the basics down, you can:
 ### Agent Class
 
 ```python
-Agent(model: str = "llama3", base_url: str = "http://localhost:11434")
+Agent(model: str = "qwen2.5-coder:1.5b", base_url: str = "http://localhost:11434")
 ```
 
 **Methods**:
@@ -331,9 +334,7 @@ AgentFlow follows these principles:
 
 Ready to dive deeper? Here's what's coming in future versions:
 
-- **v0.5**: Advanced reasoning loops
-- **v0.6**: MCP integration
-- **v0.7**: Multi-agent workflows
-- **v1.0**: Production-ready release
+- **v1.0**: Production-ready release (Current)
+- **v1.1**: Enhanced multi-agent capabilities (Coming soon)
 
 Happy building! 🚀
