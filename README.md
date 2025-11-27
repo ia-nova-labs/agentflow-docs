@@ -10,7 +10,7 @@ Official documentation for the [AgentFlow](https://github.com/ia-nova-labs/agent
 
 ## 🚀 Quick Links
 
-- **Installation**: `pip install agentflow`
+- **Installation**: `pip install agentflow-ai==1.0.0`
 - **GitHub**: [github.com/ia-nova-labs/agentflow](https://github.com/ia-nova-labs/agentflow)
 - **Examples**: [github.com/ia-nova-labs/agentflow-examples](https://github.com/ia-nova-labs/agentflow-examples)
 
